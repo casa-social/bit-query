@@ -1,0 +1,14 @@
+query{
+  tron{
+    __typename
+    
+    blocks{
+      count
+      __typename
+    }
+    transactions{
+      count
+      __typename
+    }
+  }
+}

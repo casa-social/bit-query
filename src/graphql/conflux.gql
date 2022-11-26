@@ -1,0 +1,15 @@
+query{
+  conflux{
+    __typename
+    
+    blocks{
+      count
+      __typename
+    }
+    transactions{
+      count
+      __typename
+      amount
+    }
+  }
+}

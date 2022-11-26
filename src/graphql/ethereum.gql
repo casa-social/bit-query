@@ -1,0 +1,15 @@
+query{
+  ethereum{
+     __typename
+    
+    blocks{
+      count
+      __typename
+    }
+    transactions{
+      __typename
+      count
+      amount
+    }
+  }
+}
